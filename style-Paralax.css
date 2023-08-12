@@ -1,0 +1,97 @@
+.parallax1 {
+  /*colocar imagen de fondo*/
+  background-image: url("img/pilares_01.jpg"); 
+  /* fijar la posición de una imagen de fondo en relación con la ventana 
+  del navegador */
+  background-attachment: fixed;
+  /* posición inicial de una imagen de fondo dentro de su contenedor. */
+  background-position: center;
+  /* controlar la repetición de una imagen de fondo dentro de su contenedor. */
+  background-repeat: no-repeat;
+  /* tamaño de la imagen */
+  background-size: cover;
+  /* La unidad de medida vh representa el porcentaje de la altura de la ventana gráfica. */
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parallax2 {
+  /*colocar imagen de fondo*/
+  background-image: url("img/ajedrez.jpg"); 
+  /* fijar la posición de una imagen de fondo en relación con la ventana 
+  del navegador */
+  background-attachment: fixed;
+  /* posición inicial de una imagen de fondo dentro de su contenedor. */
+  background-position: center;
+  /* controlar la repetición de una imagen de fondo dentro de su contenedor. */
+  background-repeat: no-repeat;
+  /* tamaño de la imagen */
+  background-size: cover;
+  /* La unidad de medida vh representa el porcentaje de la altura de la ventana gráfica. */
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.parallax3 {
+  /*colocar imagen de fondo*/
+  background-image: url("img/pilares_02.jpg"); 
+  /* fijar la posición de una imagen de fondo en relación con la ventana 
+  del navegador */
+  background-attachment: fixed;
+  /* posición inicial de una imagen de fondo dentro de su contenedor. */
+  background-position: center;
+  /* controlar la repetición de una imagen de fondo dentro de su contenedor. */
+  background-repeat: no-repeat;
+  /* tamaño de la imagen */
+  background-size: cover;
+  /* La unidad de medida vh representa el porcentaje de la altura de la ventana gráfica. */
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 3VW;
+
+}
+
+.titulo {
+    background-color: #68676f;
+    padding: 20px 50px 20px 50px;
+    
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.1VW;
+}
+
+.content3 {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.1VW;
+}
